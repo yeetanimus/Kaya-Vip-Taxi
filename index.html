@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title data-lang="title">Kaya VIP Taxi Cappadocia – Premium Transportation</title>
-<meta content="Experience luxury transportation in Cappadocia with Kaya VIP Taxi. Professional tours, hotel transfers, and premium taxi services." data-lang="desc" name="description"/>
+<meta content="Experience luxury transportation in Cappadocia with Kaya VIP Taxi. Professional experiences, hotel transfers, and premium taxi services." data-lang="desc" name="description"/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 <style>
@@ -61,20 +61,17 @@ nav{display:flex;justify-content:space-between;align-items:center;max-width:1200
 footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 @keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
 @media (max-width:768px){.nav-links{display:none}.hero-content h1{font-size:2.5rem}.hero-buttons{flex-direction:column;align-items:center}.form-row{grid-template-columns:1fr}}
-/* ----------  LANGUAGE SWITCH  ---------- */
 .lang-switch{position:fixed;bottom:20px;right:20px;z-index:2000;background:#ffd700;color:#1a1a2e;padding:.4rem .8rem;border-radius:20px;font-weight:600;border:2px solid transparent;cursor:pointer;transition:.3s}
 .lang-switch:hover{border-color:#fff}
 </style>
 </head>
 <body>
 
-<!-- LANGUAGE SELECTOR -->
 <select class="lang-switch" id="langSwitcher">
 <option value="en">🇬🇧 EN</option>
 <option value="tr">🇹🇷 TR</option>
 </select>
 
-<!-- HEADER -->
 <header>
 <nav>
 <div class="logo">Kaya VIP Taxi</div>
@@ -89,7 +86,6 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero" id="home">
 <div class="hero-content">
 <h1 data-lang="hero-h1">Welcome to Kaya VIP Taxi Cappadocia</h1>
@@ -101,7 +97,6 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 </section>
 
-<!-- SERVICES -->
 <section class="services" id="services">
 <div class="container">
 <h2 class="section-title" data-lang="serv-title">Our Premium Services</h2>
@@ -109,8 +104,8 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 <div class="services-grid">
 <div class="service-card">
 <div class="service-icon"><i class="fas fa-map-marked-alt"></i></div>
-<h3 data-lang="serv-1-t">Cappadocia Tours</h3>
-<p data-lang="serv-1-d">Explore the magical landscapes of Cappadocia with our expert-guided tours. Visit fairy chimneys, underground cities, and hot-air-balloon viewpoints in comfort and style.</p>
+<h3 data-lang="serv-1-t">Cappadocia Experiences</h3>
+<p data-lang="serv-1-d">Explore the magical landscapes of Cappadocia with our expert-guided experiences. Visit fairy chimneys, underground cities, and hot-air-balloon viewpoints in comfort and style.</p>
 </div>
 <div class="service-card">
 <div class="service-icon"><i class="fas fa-hotel"></i></div>
@@ -129,8 +124,8 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 <div class="service-card">
 <div class="service-icon"><i class="fas fa-wine-glass"></i></div>
-<h3 data-lang="serv-5-t">Wine Tours</h3>
-<p data-lang="serv-5-d">Discover Cappadocia's finest wineries and taste exceptional local wines. Our wine tours offer a sophisticated and safe way to explore the region's wine culture.</p>
+<h3 data-lang="serv-5-t">Wine Tasting</h3>
+<p data-lang="serv-5-d">Discover Cappadocia's finest wineries and taste exceptional local wines. Our wine tasting offers a sophisticated and safe way to explore the region's wine culture.</p>
 </div>
 <div class="service-card">
 <div class="service-icon"><i class="fas fa-mountain"></i></div>
@@ -141,18 +136,14 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 </section>
 
-<!-- FLEET -->
 <section class="fleet" id="fleet">
 <div class="container">
 <h2 class="section-title" data-lang="fleet-title">Our Premium Fleet</h2>
 <p class="section-subtitle" data-lang="fleet-sub">Travel in comfort and style with our luxury vehicles</p>
-<div class="fleet-grid" id="fleetGrid">
-<!-- single Vito injected by JS -->
-</div>
+<div class="fleet-grid" id="fleetGrid"></div>
 </div>
 </section>
 
-<!-- BOOKING -->
 <section class="booking" id="booking">
 <div class="container">
 <h2 class="section-title" data-lang="book-title">Book Your VIP Ride</h2>
@@ -192,11 +183,11 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 <label data-lang="form-service" for="service">Service Type</label>
 <select id="service" name="service" required="">
 <option data-lang="form-sel-service" value="">Select Service</option>
-<option data-lang="form-sel-tour" value="tour">Cappadocia Tour</option>
+<option data-lang="form-sel-tour" value="tour">Cappadocia Experiences</option>
 <option data-lang="form-sel-airport" value="transfer">Airport Transfer</option>
 <option data-lang="form-sel-hotel" value="hotel">Hotel Transfer</option>
 <option data-lang="form-sel-biz" value="business">Business Travel</option>
-<option data-lang="form-sel-wine" value="wine">Wine Tour</option>
+<option data-lang="form-sel-wine" value="wine">Wine Tasting</option>
 <option data-lang="form-sel-custom" value="custom">Custom Adventure</option>
 </select>
 </div>
@@ -218,7 +209,6 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 </section>
 
-<!-- TESTIMONIALS -->
 <section class="testimonials">
 <div class="container">
 <h2 class="section-title" data-lang="testi-title">What Our Clients Say</h2>
@@ -231,7 +221,7 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 <div class="testimonial-card">
 <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-<p class="testimonial-text" data-lang="testi-2">"We booked a full-day tour and it was perfect! The driver took us to all the best spots and even recommended an amazing local restaurant. The best way to see Cappadocia!"</p>
+<p class="testimonial-text" data-lang="testi-2">"We booked a full-day experience and it was perfect! The driver took us to all the best spots and even recommended an amazing local restaurant. The best way to see Cappadocia!"</p>
 <p class="testimonial-author">- Michael Chen, USA</p>
 </div>
 <div class="testimonial-card">
@@ -243,7 +233,6 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 </section>
 
-<!-- CONTACT -->
 <section class="contact" id="contact">
 <div class="container">
 <h2 class="section-title" data-lang="cont-title">Contact Us</h2>
@@ -280,12 +269,10 @@ footer{background:#0a0a0a;color:white;text-align:center;padding:2rem}
 </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
 <p data-lang="footer">© 2024 Kaya VIP Taxi Cappadocia. All rights reserved. | Designed with ❤️ for Cappadocia</p>
 </footer>
 
-<!-- ----------  JAVASCRIPT  ---------- -->
 <script>
 /* 1.  TRANSLATION OBJECT  */
 const dict = {
@@ -293,22 +280,22 @@ en:{
 "nav-home":"Home","nav-services":"Services","nav-fleet":"Fleet","nav-booking":"Book Now","nav-contact":"Contact","nav-cta":"Book a Ride",
 "hero-h1":"Welcome to Kaya VIP Taxi Cappadocia","hero-p":"Experience Premium Transportation Services in the Heart of Turkey","hero-btn1":"Book Now","hero-btn2":"Our Services",
 "serv-title":"Our Premium Services","serv-sub":"Discover the exceptional transportation services we offer in Cappadocia",
-"serv-1-t":"Cappadocia Tours","serv-1-d":"Explore the magical landscapes of Cappadocia with our expert-guided tours. Visit fairy chimneys, underground cities, and hot-air-balloon viewpoints in comfort and style.",
+"serv-1-t":"Cappadocia Experiences","serv-1-d":"Explore the magical landscapes of Cappadocia with our expert-guided experiences. Visit fairy chimneys, underground cities, and hot-air-balloon viewpoints in comfort and style.",
 "serv-2-t":"Hotel Pick-up & Drop-off","serv-2-d":"Seamless transfers from airports, hotels, and any location in Cappadocia. We ensure timely and comfortable transportation to your destination.",
 "serv-3-t":"Airport Transfers","serv-3-d":"Reliable and punctual airport transportation services. We monitor flight schedules to ensure we're always there when you arrive.",
 "serv-4-t":"Business Travel","serv-4-d":"Professional transportation for corporate events, meetings, and business travelers. Discrete and reliable service for all your business needs.",
-"serv-5-t":"Wine Tours","serv-5-d":"Discover Cappadocia's finest wineries and taste exceptional local wines. Our wine tours offer a sophisticated and safe way to explore the region's wine culture.",
+"serv-5-t":"Wine Tasting","serv-5-d":"Discover Cappadocia's finest wineries and taste exceptional local wines. Our wine tasting offers a sophisticated and safe way to explore the region's wine culture.",
 "serv-6-t":"Custom Adventures","serv-6-d":"Create your own itinerary and explore Cappadocia at your own pace. We're here to make your unique travel dreams come true.",
 "fleet-title":"Our Premium Fleet","fleet-sub":"Travel in comfort and style with our luxury vehicles",
 "vito-name":"Mercedes Vito VIP","vito-desc":"Luxury black Mercedes Vito with leather seats, A/C, Wi-Fi, water & snacks. Seats up to 7 passengers.",
 "book-title":"Book Your VIP Ride","book-sub":"Reserve your premium transportation service now",
 "form-name":"Full Name","form-phone":"Phone Number","form-pickup":"Pick-up Location","form-dest":"Destination","form-date":"Date","form-time":"Time",
-"form-service":"Service Type","form-sel-service":"Select Service","form-sel-tour":"Cappadocia Tour","form-sel-airport":"Airport Transfer","form-sel-hotel":"Hotel Transfer","form-sel-biz":"Business Travel","form-sel-wine":"Wine Tour","form-sel-custom":"Custom Adventure",
+"form-service":"Service Type","form-sel-service":"Select Service","form-sel-tour":"Cappadocia Experiences","form-sel-airport":"Airport Transfer","form-sel-hotel":"Hotel Transfer","form-sel-biz":"Business Travel","form-sel-wine":"Wine Tasting","form-sel-custom":"Custom Adventure",
 "form-vehicle":"Vehicle Preference","form-any":"Any Vehicle","form-vito":"Mercedes Vito VIP",
 "form-msg":"Special Requests","form-send":"Book Now",
 "testi-title":"What Our Clients Say","testi-sub":"Experience the quality of our service through our customers' words",
 "testi-1":"\"Exceptional service! The driver was professional, punctual, and very knowledgeable about Cappadocia's history. The Mercedes Vito was immaculate and very comfortable. Highly recommend!\"",
-"testi-2":"\"We booked a full-day tour and it was perfect! The driver took us to all the best spots and even recommended an amazing local restaurant. The best way to see Cappadocia!\"",
+"testi-2":"\"We booked a full-day experience and it was perfect! The driver took us to all the best spots and even recommended an amazing local restaurant. The best way to see Cappadocia!\"",
 "testi-3":"\"Reliable airport-transfer service. Driver was waiting for us despite our flight being delayed. Professional, friendly, and excellent English speaking. Will definitely use again!\"",
 "cont-title":"Contact Us","cont-sub":"We're here to help with all your transportation needs",
 "cont-touch":"Get in Touch","cont-addr":"Nevşehir, Cappadocia, Turkey","cont-hours":"Operating Hours","cont-24":"24/7 Service Available","cont-advance":"Advance booking recommended","cont-emer":"Emergency service available","cont-lang":"Multi-language support",
@@ -319,22 +306,22 @@ tr:{
 "nav-home":"Anasayfa","nav-services":"Hizmetler","nav-fleet":"Araçlar","nav-booking":"Rezervasyon","nav-contact":"İletişim","nav-cta":"Rezervasyon Yap",
 "hero-h1":"Kaya VIP Taksi Kapadokya'ya Hoş Geldiniz","hero-p":"Türkiye'nin kalbinde Premium Ulaşım Hizmetleri","hero-btn1":"Rezervasyon","hero-btn2":"Hizmetlerimiz",
 "serv-title":"Premium Hizmetlerimiz","serv-sub":"Kapadokya'da sunduğumuz olağanüstü ulaşım hizmetlerini keşfedin",
-"serv-1-t":"Kapadokya Turları","serv-1-d":"Uzman rehberlerimiz eşliğinde büyülü Kapadokya manzaralarını keşfedin. Peri bacaları, yeraltı şehirleri ve balon manzaralarını konforla gezin.",
+"serv-1-t":"Kapadokya Deneyimleri","serv-1-d":"Uzman rehberlerimiz eşliğinde büyülü Kapadokya manzaralarını keşfedin. Peri bacaları, yeraltı şehirleri ve balon manzaralarını konforla gezin.",
 "serv-2-t":"Otel Alış & Bırakış","serv-2-d":"Havaalanları, oteller ve Kapadokya'daki her noktadan sorunsuz transfer. Hedefinize zamanında ve konforlu ulaşım sağlarız.",
 "serv-3-t":"Havaalanı Transferleri","serv-3-d":"Güvenilir ve dakik havaalanı ulaşım hizmeti. Uçuş takibini yaparak varışınızda her zaman orada oluruz.",
 "serv-4-t":"İş Seyahati","serv-4-d":"Kurumsal etkinlikler, toplantılar ve iş gezileri için profesyonel taşıma. Tüm iş ihtiyaçlarınızda gizli ve güvenilir servis.",
-"serv-5-t":"Şarap Turları","serv-5-d":"Kapadokya'nın en iyi şaraphanelerini keşfedin ve yerel şarapların tadına varın. Şarap kültürünü güvenli ve zarif bir şekilde keşfedin.",
+"serv-5-t":"Şarap Tadımı","serv-5-d":"Kapadokya'nın en iyi şaraphanelerini keşfedin ve yerel şarapların tadına varın. Şarap kültürünü güvenli ve zarif bir şekilde keşfedin.",
 "serv-6-t":"Özel Maceralar","serv-6-d":"Kendi rotanızı oluşturun ve Kapadokya'yı kendi hızınızda keşfedin. Eşsiz seyahat hayallerinizi gerçekleştirmek için buradayız.",
 "fleet-title":"Premium Filomuz","fleet-sub":"Lüks araçlarımızla konfor ve stilde seyahat edin",
 "vito-name":"Mercedes Vito VIP","vito-desc":"Siyah deri koltuklu, klima, Wi-Fi, su & ikramlık lüks Vito. 7 yolcu kapasitesi.",
 "book-title":"VIP Yolculuğunuzu Ayırtın","book-sub":"Premium ulaşım hizmetinizi hemen rezerve edin",
 "form-name":"Ad Soyad","form-phone":"Telefon","form-pickup":"Alış Yeri","form-dest":"Varış Yeri","form-date":"Tarih","form-time":"Saat",
-"form-service":"Hizmet Türü","form-sel-service":"Hizmet Seçin","form-sel-tour":"Kapadokya Turu","form-sel-airport":"Havaalanı Transferi","form-sel-hotel":"Otel Transferi","form-sel-biz":"İş Seyahati","form-sel-wine":"Şarap Turu","form-sel-custom":"Özel Tur",
+"form-service":"Hizmet Türü","form-sel-service":"Hizmet Seçin","form-sel-tour":"Kapadokya Deneyimleri","form-sel-airport":"Havaalanı Transferi","form-sel-hotel":"Otel Transferi","form-sel-biz":"İş Seyahati","form-sel-wine":"Şarap Tadımı","form-sel-custom":"Özel Tur",
 "form-vehicle":"Araç Tercihi","form-any":"Fark Etmez","form-vito":"Mercedes Vito VIP",
 "form-msg":"Özel İstekler","form-send":"Rezervasyon Yap",
 "testi-title":"Müşterilerimiz Ne Diyor?","testi-sub":"Hizmet kalitemizi müşterilerimizin sözleriyle deneyimleyin",
 "testi-1":"\"Olağanüstü hizmet! Şoför profesyonel, dakik ve Kapadokya tarihi konusunda çok bilgiliydi. Mercedes Vito tertemiz ve son derece konforluydu. Kesinlikle tavsiye ederim!\"",
-"testi-2":"\"Tam gün tur rezervasyonu yaptık ve mükemmeldi! Şoför bizi en iyi noktalara götürdü ve harika bir yerel restoran önerdi. Kapadokya'yı gezmenin en iyi yolu!\"",
+"testi-2":"\"Tam gün deneyim rezervasyonu yaptık ve mükemmeldi! Şoför bizi en iyi noktalara götürdü ve harika bir yerel restoran önerdi. Kapadokya'yı gezmenin en iyi yolu!\"",
 "testi-3":"\"Güvenilir havaalanı transferi. Uçuşumuz gecikmesine rağmen şoför bizi bekliyordu. Profesyonel, dostça ve mükemmel İngilizce konuşuyordu. Tekrar kullanacağım!\"",
 "cont-title":"İletişim","cont-sub":"Tüm ulaşım ihtiyaçlarınız için buradayız",
 "cont-touch":"Bize Ulaşın","cont-addr":"Nevşehir, Kapadokya, Türkiye","cont-hours":"Çalışma Saatleri","cont-24":"7/24 Hizmet","cont-advance":"Önceden rezervasyon önerilir","cont-emer":"Acil hizmet mevcut","cont-lang":"Çoklu dil desteği",
@@ -374,7 +361,7 @@ document.getElementById('fleetGrid').innerHTML = `
 </div>`;
 }
 
-/* 4.  BOOKING FORM  ->  WhatsApp */
+/* 4.  BOOKING FORM  ->  WhatsApp  */
 document.getElementById('bookingForm').addEventListener('submit',function(e){
 e.preventDefault();
 const d = new FormData(this);
